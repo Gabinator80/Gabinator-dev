@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Climate+Crisis&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Climate+Crisis&family=Open+Sans:wght@300&display=swap');
+/*font-family: 'Open Sans', sans-serif;*/
+.title {
+	text-align: center;
+	font-family: 'Borel', cursive;
+	font-size: 50px;
+	animation: 500ms SlideY ease-in-out;
+
+		}
+
+h1 {
+	text-align: center;
+}
+
+body {
+	background-image: linear-gradient(to right, violet, pink);
+	text-align: center;
+}
+
+.link {
+	color: black;
+	transition: all linear 0.3s;
+	font-family: 'Open Sans', sans-serif;
+	display: inline-block;
+	font-size: 1.5em;
+    text-decoration: none;
+    font-size: 30px;
+    margin-top: 60px;
+    position: relative;
+    overflow: hidden;
+    width: 600px;
+    border: solid black 20px;
+    
+}
+
+.link:hover {
+	background: rgba(255, 255, 255, 0.7);
+	border-radius: 20px;
+}
+
+.comment-chier {
+	transition: all 500ms ease-in-out;
+	padding-bottom: 25px;
+	animation: SlideX 1s ease-in-out;
+
+}
+
+.comment-chier:hover {
+	scale: 2;
+
+	
+}
+
+.argent-gratos {
+	padding-bottom: 25px;
+	transition: all 500ms ease-in-out;
+	animation: SlideX 2s ease-in-out ;
+}
+
+.argent-gratos:hover {
+	scale: 2;
+}
+
+
+.notepadx {
+	padding-bottom: 25px;
+	animation: SlideX 3s ease-in-out;
+	transition: all 500ms ease-in-out;
+}
+
+.notepadx:hover {
+	scale: 2;
+}
+
+
+.randomnumb {
+	padding-bottom: 25px;
+	animation: 4s SlideX ease-in-out;
+	transition: all 500ms ease-in-out;
+
+}
+
+.randomnumb:hover {
+	scale: 2;
+}
+a:link {
+	color: black;
+	text-decoration: none;
+}
+
+a:hover {
+	scale: 2;
+}
+
+a {
+	color: black;
+}
+
+
+@media and screen (max-height: 848px) {
+	.link {
+		display: block;
+		margin-top: 0;
+	}
+	.title {
+		visibility: hidden;
+	}
+}
+
+@keyframes SlideY {
+	from {
+		transform: translateY(20px);
+		opacity: 0;
+	} 
+	to {
+		transform: translateY(0px);
+		opacity: 1px;
+	}
+}
+
+
+@keyframes SlideX {
+	from {
+		transform: translateX(20px);
+		opacity: 0;
+	}
+	to {
+		transform: translateX(0px);
+		opacity: 1;
+	}
+}
+
+@keyframes SlideZ {
+	from {
+		transform: translateZ(20px);
+		opacity: 0;
+	}
+	to {
+		transform: translateZ(0px);
+		opacity: 1;
+	}
+}
+
+
+
+
+.crédits {
+	text-align: left;
+	margin-top: 500px;
+	font-family:'Open Sans', sans-serif ;
+}
+
