@@ -13,6 +13,10 @@ h1 {
 	text-align: center;
 }
 
+* {
+	user-select: none;
+}
+
 body {
 	background-image: linear-gradient(to right, violet, pink);
 	text-align: center;
